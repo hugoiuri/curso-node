@@ -1,4 +1,5 @@
 const pkg = require('./package.json');
+const server = require('./lib/server');
 
 process.title = pkg.name;
 
@@ -32,4 +33,3 @@ process.on('SIGTERM', shutdown)
     }
     console.info('[APP] initialized SUCCESSFULLY');
   })();
-  

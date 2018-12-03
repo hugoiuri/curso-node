@@ -22,3 +22,14 @@ process.on('SIGTERM', shutdown)
   .on('exit', (code) => {
     console.info(`Node process exit with code: ${code}`);
   });
+
+  (async () => {
+    try {
+      await server.start();
+    } catch (err) {
+      console.error('[APP] initialization failed', err);
+      throw err;
+    }
+    console.info('[APP] initialized SUCCESSFULLY');
+  })();
+  

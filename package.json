@@ -1,0 +1,24 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "Do zero ao deploy com Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugoiuri/curso-node.git"
+  },
+  "keywords": [
+    "node",
+    "curso",
+    "puc"
+  ],
+  "author": "Hugo Iuri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugoiuri/curso-node/issues"
+  },
+  "homepage": "https://github.com/hugoiuri/curso-node#readme"
+}

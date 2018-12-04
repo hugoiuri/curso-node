@@ -17,7 +17,7 @@ describe('Integration tests health status', () => {
   it('Should return 200 when call health-status', (done) => {
     supertest(app).get('/health-status')
       .set('Content-Type', 'application/json')
-      .expect(201)
+      .expect(200)
       .end((err) => {
         assert.isNull(err);
         done();
